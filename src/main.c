@@ -42,7 +42,7 @@ int main(int argc, char **argv) {
 	
 	const wchar_t CLASS_NAME[] = L"BRUH";
 	
-	WNDCLASS wc = {};
+	WNDCLASS wc = {0};
 	
 	wc.lpfnWndProc = WindowProc;
 	wc.hInstance = hInstance;
@@ -70,7 +70,7 @@ int main(int argc, char **argv) {
 	
 	ShowWindow(hwnd, SW_HIDE);
 	
-	MSG msg = {};
+	MSG msg = {0};
 	while (GetMessage(&msg, NULL, 0, 0)) {
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
