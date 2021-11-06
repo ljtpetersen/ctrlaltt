@@ -1,0 +1,12 @@
+ctrlaltt is a free program with a single purpose.
+It is supposed to open a WSL console on Windows when
+pressing the key combination CTRL+ALT+T. It can be made
+to execute any command upon pressing that key combination
+by passing the command as the last passed argument to the
+program. There is currently no mechanism for modifying the
+key combination. The only way to kill the program is to
+run the taskkill command from cmd or powershell. This program
+is made to be executed only on windows.
+
+The default command executed when pressing the key combination
+is exactly, `bash ~`.
