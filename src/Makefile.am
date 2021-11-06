@@ -15,7 +15,7 @@
 
 AM_CFLAGS = -Wall -pedantic -mwindows
 
-bin_PROGRAMS = ctrlalt
+bin_PROGRAMS = ctrlaltt
 
 ctrlaltt_SOURCES = main.c
 
